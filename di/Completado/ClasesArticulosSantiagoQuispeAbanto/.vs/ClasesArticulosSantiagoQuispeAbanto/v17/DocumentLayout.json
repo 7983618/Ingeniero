@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\clasesarticulossantiagoquispeabanto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|solutionrelative:clasesarticulossantiagoquispeabanto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|c:\\users\\alumno\\source\\repos\\clasesarticulossantiagoquispeabanto\\clasesarticulossantiagoquispeabanto\\cporcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|solutionrelative:clasesarticulossantiagoquispeabanto\\cporcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|c:\\users\\alumno\\source\\repos\\clasesarticulossantiagoquispeabanto\\clasesarticulossantiagoquispeabanto\\cporcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|solutionrelative:clasesarticulossantiagoquispeabanto\\cporcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|c:\\users\\alumno\\source\\repos\\clasesarticulossantiagoquispeabanto\\clasesarticulossantiagoquispeabanto\\lporcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|solutionrelative:clasesarticulossantiagoquispeabanto\\lporcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|c:\\users\\alumno\\source\\repos\\clasesarticulossantiagoquispeabanto\\clasesarticulossantiagoquispeabanto\\lporcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|solutionrelative:clasesarticulossantiagoquispeabanto\\lporcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|c:\\users\\alumno\\source\\repos\\clasesarticulossantiagoquispeabanto\\clasesarticulossantiagoquispeabanto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71120E11-DB6B-4D73-9B36-ADA8106BE8F9}|ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto.csproj|solutionrelative:clasesarticulossantiagoquispeabanto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CporCodigo.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs",
+              "RelativeDocumentMoniker": "ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs",
+              "RelativeToolTip": "ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowDEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:38:25.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CporCodigo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs",
+              "RelativeDocumentMoniker": "ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClasesArticulosSantiagoQuispeAbanto\\CporCodigo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:38:22.73Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LporCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs",
+              "RelativeDocumentMoniker": "ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs",
+              "RelativeToolTip": "ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:34:29.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LporCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs",
+              "RelativeDocumentMoniker": "ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClasesArticulosSantiagoQuispeAbanto\\LporCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:34:22.538Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\Form1.cs",
+              "RelativeDocumentMoniker": "ClasesArticulosSantiagoQuispeAbanto\\Form1.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\Form1.cs",
+              "RelativeToolTip": "ClasesArticulosSantiagoQuispeAbanto\\Form1.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAApwFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:15:36.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\Form1.cs",
+              "RelativeDocumentMoniker": "ClasesArticulosSantiagoQuispeAbanto\\Form1.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\ClasesArticulosSantiagoQuispeAbanto\\ClasesArticulosSantiagoQuispeAbanto\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClasesArticulosSantiagoQuispeAbanto\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:11:28.141Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
