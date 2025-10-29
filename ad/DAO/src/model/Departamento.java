@@ -30,16 +30,24 @@ public class Departamento {
 	public void setCodDirector(String codDirector) {
 		this.codDirector = codDirector;
 	}
-	@Override
-	public String toString() {
-		return "Departamento [codDepto=" + codDepto + ", nombreDpto=" + nombreDpto + ", ciudad=" + ciudad
-				+ ", codDirector=" + codDirector + "]";
-	}
 
     public Departamento(String codDepto, String nombreDpto, String ciudad, String codDirector) {
         this.codDepto = codDepto;
         this.nombreDpto = nombreDpto;
         this.ciudad = ciudad;
         this.codDirector = codDirector;
+    }
+
+    public Departamento() {
+    }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "codDepto='" + codDepto + '\'' +
+                ", nombreDpto='" + nombreDpto + '\'' +
+                ", ciudad='" + ciudad + '\'' +
+                ", codDirector='" + codDirector + '\'' +
+                '}';
     }
 }

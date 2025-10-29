@@ -11,14 +11,17 @@ public class DepartamentoDaoImpl implements DepartamentoDao {
 			"(codDepto, nombreDpto, ciudad, codDirector)" + 
 			"VALUES(?, ?, ?, ?);";
     private static final String SQL_SELECT = "SELECT codDepto, nombreDpto, ciudad, codDirector FROM departamentos WHERE codDepto = ?;";
-	
+    private static final String UPDATE_SQL = "UPDATE departamentos SET nombreDpto = ? WHERE codDepto = ?;";
+    private static final String DELETE_SQL = "DELETE FROM departamentos WHERE codDepto = ?;";
+
 	@Override
 	public void create(Departamento departamento) {
 		
-		try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
-				CredentialsDB.getUser(), CredentialsDB.getPassword()); 
-                PreparedStatement sentencia = conexion.prepareStatement(SQL_INSERT);) {
-        	
+//		try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
+//				CredentialsDB.getUser(), CredentialsDB.getPassword());
+        try {
+            Connection conexion = CredencialesCasa.getConnectionClase();
+            PreparedStatement sentencia = conexion.prepareStatement(SQL_INSERT);
 			sentencia.setString(1, departamento.getCodDepto());
 			sentencia.setString(2, departamento.getNombreDpto());
 			sentencia.setString(3, departamento.getCiudad());
@@ -34,10 +37,11 @@ public class DepartamentoDaoImpl implements DepartamentoDao {
 	
 	@Override
 	public Departamento read(String codDepartamento) {
-        try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
-                CredentialsDB.getUser(), CredentialsDB.getPassword());
-             PreparedStatement sentencia = conexion.prepareStatement(SQL_SELECT);) {
-
+//        try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
+//                CredentialsDB.getUser(), CredentialsDB.getPassword());
+        try {
+            Connection conexion = CredencialesCasa.getConnectionClase();
+            PreparedStatement sentencia = conexion.prepareStatement(SQL_SELECT);
             sentencia.setString(1, codDepartamento);
             ResultSet rs = sentencia.executeQuery();
             while(rs.next()) {
@@ -51,14 +55,37 @@ public class DepartamentoDaoImpl implements DepartamentoDao {
 	}
 	
 	@Override
-	public void update(Departamento departamento) {
-		// TODO Auto-generated method stub
+	public void update(Departamento departamento, String nombre) { //Le he puesto para actualizar el nombre del departamento porque si no no tenemos datos a cambiar. También he modificado la interfaz.
+
+//        try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
+//                CredentialsDB.getUser(), CredentialsDB.getPassword());
+        try {
+            Connection conexion = CredencialesCasa.getConnectionClase();
+            PreparedStatement sentencia = conexion.prepareStatement(UPDATE_SQL);
+            sentencia.setString(1, nombre);
+            sentencia.setString(2, departamento.getCodDepto());
+            sentencia.executeUpdate();
+
+        } catch (SQLException cn) {
+            cn.printStackTrace();
+        }
 		
 	}
 
 	@Override
 	public void delete(String codDepartamento){
-		// TODO Auto-generated method stub
+//        try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
+//                CredentialsDB.getUser(), CredentialsDB.getPassword());
+        try {
+            Connection conexion = CredencialesCasa.getConnectionClase();
+            PreparedStatement sentencia = conexion.prepareStatement(DELETE_SQL);
+
+            sentencia.setString(1, codDepartamento);
+            sentencia.executeUpdate();
+
+        } catch (SQLException cn) {
+            cn.printStackTrace();
+        }
 		
 	}	
 
