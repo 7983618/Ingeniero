@@ -35,6 +35,11 @@ public class Departamento {
 		return "Departamento [codDepto=" + codDepto + ", nombreDpto=" + nombreDpto + ", ciudad=" + ciudad
 				+ ", codDirector=" + codDirector + "]";
 	}
-	
-	
+
+    public Departamento(String codDepto, String nombreDpto, String ciudad, String codDirector) {
+        this.codDepto = codDepto;
+        this.nombreDpto = nombreDpto;
+        this.ciudad = ciudad;
+        this.codDirector = codDirector;
+    }
 }

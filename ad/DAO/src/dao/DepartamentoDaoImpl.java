@@ -1,9 +1,6 @@
 package dao;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 import model.Departamento;
 
@@ -13,6 +10,7 @@ public class DepartamentoDaoImpl implements DepartamentoDao {
 			"INSERT INTO departamentos" +
 			"(codDepto, nombreDpto, ciudad, codDirector)" + 
 			"VALUES(?, ?, ?, ?);";
+    private static final String SQL_SELECT = "SELECT codDepto, nombreDpto, ciudad, codDirector FROM departamentos WHERE codDepto = ?;";
 	
 	@Override
 	public void create(Departamento departamento) {
@@ -36,8 +34,20 @@ public class DepartamentoDaoImpl implements DepartamentoDao {
 	
 	@Override
 	public Departamento read(String codDepartamento) {
-		// TODO Auto-generated method stub
-		return null;
+        try (Connection conexion = DriverManager.getConnection(CredentialsDB.getConnection(),
+                CredentialsDB.getUser(), CredentialsDB.getPassword());
+             PreparedStatement sentencia = conexion.prepareStatement(SQL_SELECT);) {
+
+            sentencia.setString(1, codDepartamento);
+            ResultSet rs = sentencia.executeQuery();
+            while(rs.next()) {
+                return new Departamento(rs.getString("codDepto"), rs.getString("nombreDpto"), rs.getString("ciudad"), rs.getString("codDirector"));
+            }
+
+        } catch (SQLException cn) {
+            cn.printStackTrace();
+        }
+        return null;
 	}
 	
 	@Override
